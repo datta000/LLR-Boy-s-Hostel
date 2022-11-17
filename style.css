@@ -1,90 +1,10 @@
-* {
-  scroll-behavior: smooth;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  /* font-weight: 600; */
-  text-decoration: none;
+body{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    /* min-height: 26vh; */
+    background:url(images/MIMIT.jpg) center/cover no-repeat fixed;
+    /* background: red; */
 }
-header {
-  min-height: 100vh;
-  background: url(./components/hostel.jpg) center/cover no-repeat fixed;
-}
-
-nav.navbar {
-  display: flex;
-  width: 100%;
-  height: fit-content;
-  background: rgb(249, 249, 249);
-  padding: 0.3% 2%;
-  
-  justify-content: space-between;
-  align-items: center;
-  
-  position: fixed;
-  backdrop-filter: blur(2rem);
-  z-index: 1;
-}
-.navlinks ul {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-.navlinks ul li {
-  padding: 5px 40px;
-  list-style: none;
-  justify-content: space-between;
-}
-.navlinks ul li a {
-  text-decoration: none;
-  color: rgb(107, 106, 106);
-  transition: 0.3s;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.navlinks ul li a:hover {
-  color: rgb(0, 0, 0);
-}
-.navlinks ul li a.active {
-  color: rgb(0, 0, 0);
-}
-.navlinks ul li a::after {
-  content: "";
-  display: block;
-  width: 0px;
-  height: 2px;
-  margin: auto;
-  transition: 0.3s;
-}
-.navlinks ul li :hover::after {
-  width: 100%;
-  background: rgb(0, 0, 0);
-}
-.logo {
-  width: 200;
-}
-main {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  min-height: 20vh;
-  width: 100%;
-  color: aliceblue;
-  background: rgb(17, 17, 17);
-}
-.social {
-  font-size: 10px;
-}
-.foot a {
-  padding: 20px;
-  font-size: 30px;
-  color: aliceblue;
+#main{
+    /* opacity: 0.5; */
 }
