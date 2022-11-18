@@ -8,3 +8,6 @@ body{
 #main{
     /* opacity: 0.5; */
 }
+section img{
+  width: 30rem;
+}
