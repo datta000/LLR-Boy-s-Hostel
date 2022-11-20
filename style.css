@@ -2,7 +2,7 @@ body{
     margin: 0;padding: 0;
     box-sizing: border-box;
     /* min-height: 26vh; */
-    background:url(images/MIMIT.jpg) center/cover no-repeat fixed;
+    /* background:url(images/MIMIT.jpg) center/cover no-repeat fixed; */
     /* background: red; */
 }
 #main{
